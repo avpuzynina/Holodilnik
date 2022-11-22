@@ -36,6 +36,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+logfile.log
 
 # Unit test / coverage reports
 htmlcov/
@@ -104,6 +105,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+holod
 env/
 venv/
 ENV/
@@ -127,3 +129,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea
