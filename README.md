@@ -25,7 +25,6 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="colab" width="40" height="40"/>
 <img src="https://avatars.githubusercontent.com/u/33784865?s=200&v=4" alt="colab" width="40" height="40"/>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbfHP132oL2LKGsA_kV5VSekHToyfRZmd1mXXmuBmbA&s" alt="colab" width="60" height="40"/>
-<img src="https://public.roboflow.com/images/logo.png" alt="colab" width="130" height="40"/>
 
 ### Интерфейс бота:
 ![Alt Text](https://github.com/avpuzynina/Holodilnik/blob/main/image_save/interface_telegrambot.gif)\
