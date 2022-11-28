@@ -5,13 +5,13 @@
 <img src="https://github.com/avpuzynina/Holodilnik/blob/main/image_save/project_idea.png" alt="альтернативный текст" />
 
 #### Шаги реализации проекта:
-- Парсинг датасата рецептов с помощью библиотеки BeatifulSoup с сайта [eda.ru](https://eda.ru/) и сохранение его в файл с расширением .csv
+- Парсинг датасета рецептов с помощью библиотеки BeatifulSoup с сайта [eda.ru](https://eda.ru/) и сохранение его в файл с расширением .csv
 - Предобработка датасета рецептов с помощью библиотеки [Pandas](https://pandas.pydata.org/)
 - Сбор фотографий с продуктами и разметка их с помощью [Roboflow](https://app.roboflow.com/holod/holodilnik_products_new/4) для модели [Yolov5](https://github.com/ultralytics/yolov5)
 ![image](https://github.com/avpuzynina/Holodilnik/blob/main/image_save/train_valid_dataset.png)
 - Обучение модели [Yolov5](https://github.com/ultralytics/yolov5) с помощью библиотеки [PyTorch](https://pytorch.org/) c использованием мощности [Google Colab](https://colab.research.google.com/)
-- Разработка рекомендательной системы выдачи продуктов
-- Разработка рекомендательной системы похожих продуктов
+- Разработка рекомендательной системы выдачи рецептов
+- Разработка рекомендательной системы похожих рецептов
 
 ##### **Функции телеграм бота:**
 - Получение 5-ти рецептов по фотографии холодильника или продукта:
@@ -34,9 +34,10 @@
 - [Никита Ахметов](https://github.com/SenhorMaestro)
 
 ## Инструкция по запуску
-1. Запустить терминал и прописать команду\
+1. Установить GIT LFS - инструкция по установке <a href="http://arfc.github.io/manual/guides/git-lfs">тут</a>
+2. Запустить терминал и прописать команду\
 `pip install -r 'requirements.txt'`
-2. Открыть файл bot.py, в терминале прописать команду\
+3. Открыть файл bot.py, в терминале прописать команду\
 ```python home/anna/Holodilnik/TelegramBot/bot.py```
 
 ### Ideas For New Features
