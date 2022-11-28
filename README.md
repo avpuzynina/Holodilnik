@@ -5,7 +5,7 @@
 <img src="https://github.com/avpuzynina/Holodilnik/blob/main/image_save/project_idea.png" alt="альтернативный текст" />
 
 #### Шаги реализации проекта:
-- Парсинг датасета рецептов с помощью библиотеки BeatifulSoup с сайта [eda.ru](https://eda.ru/) и сохранение его в файл с расширением .csv
+- Парсинг датасета рецептов с помощью библиотеки <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> с сайта [eda.ru](https://eda.ru/) и сохранение его в файл с расширением .csv
 - Предобработка датасета рецептов с помощью библиотеки [Pandas](https://pandas.pydata.org/)
 - Сбор фотографий с продуктами и разметка их с помощью [Roboflow](https://app.roboflow.com/holod/holodilnik_products_new/4) для модели [Yolov5](https://github.com/ultralytics/yolov5)
 ![image](https://github.com/avpuzynina/Holodilnik/blob/main/image_save/train_valid_dataset.png)
